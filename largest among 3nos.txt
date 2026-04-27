@@ -1,0 +1,10 @@
+#largest among 3no's
+x=int(input("Enter  number:"))
+y=int(input("Enter number:"))
+z=int(input("Enter numbr:"))
+if(x>y&x>z):
+   print("X is larger")
+elif(y>z):
+   print("Y is larger")
+else:
+   print("Z is larger")

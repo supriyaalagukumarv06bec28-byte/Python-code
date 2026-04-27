@@ -1,0 +1,9 @@
+
+def count_case(s):
+   lowercase_count=sum(1 for char in s if char.islower())
+   uppercase_count=sum(1 for char in s if char.isupper())
+   return(lowercase_count,uppercase_count)
+str=input("Enter a string:")
+lowercase,uppercase=count_case(str)
+print("uppercase letters:",uppercase)
+print("Lowercase letters:",lowercase)

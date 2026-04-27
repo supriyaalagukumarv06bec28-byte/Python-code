@@ -1,0 +1,5 @@
+#largest among 3no's
+def find_largest(n1,n2,n3):
+   return max(n1,n2,n3)
+largest=find_largest(5,9,14)
+print("The largest no is:",largest)

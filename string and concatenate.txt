@@ -1,0 +1,13 @@
+#PYTHON PROGARM TO CALCULATE LENGTH AND CONCATENATE TWO STRINGS
+def str_len(s):
+   return len(s)
+def concat_str (s1,s2):
+   return s1+s2
+str1=input("s1:")
+str2=input("s2:")
+length1=str_len(str1)
+length2=str_len(str2)
+concat_string=concat_str(str1,str2)
+print("Length of the string1:",length1)
+print("lenth of the string2:",length2)
+print("concatenated string:",concat_string)

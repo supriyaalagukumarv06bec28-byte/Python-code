@@ -1,0 +1,7 @@
+[24bec027@mepcolinux exptm4]$python3 prog1.p
+#count no of characters in string
+def count_character(s):
+   return len(s)
+string=input("s1:")
+num_characters=count_character(string)
+print("No.of characters:",num_characters)

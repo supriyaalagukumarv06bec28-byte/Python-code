@@ -1,0 +1,9 @@
+[24bec027@mepcolinux ~]$cat file6.py
+n=10
+sums=0
+i=0
+while i<=n :
+   if i%2==0 :
+      sums=sums+i
+   i=i+1
+print(sums)

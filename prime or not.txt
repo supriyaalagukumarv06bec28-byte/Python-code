@@ -1,0 +1,12 @@
+#to find prime or not
+n=int(input("Enter a number:"))
+found=0
+if(n==0 or n==1):
+   print("Not prime")
+for i in range(2,n):
+   if(n%i==0):
+      found=1
+if(found==1):
+      print("No t prime")
+else:
+      print("Prime")

@@ -1,0 +1,6 @@
+numbers = [10, 20, 10, 30, 20, 40]
+unique_list = []
+for n in numbers:
+   if n not in unique_list:
+      unique_list.append(n)
+ print(unique_list)

@@ -1,0 +1,6 @@
+#program to fid lcm
+import math
+num1=int(input("Enter a number:"))
+num2=int(input("Enter a number:"))
+lcm=(num1*num2)//math.gcd(num1,num2)
+print("The LcM IS",lcm)

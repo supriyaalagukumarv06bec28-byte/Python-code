@@ -1,0 +1,6 @@
+#program to convert weight into pound
+a=int(input("Enter the weight:"))
+pound=2.20*a
+tonne=0.001*a
+print("The value in pound:",pound)
+print("The value is tonne:",tonne)

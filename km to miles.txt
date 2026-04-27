@@ -1,0 +1,4 @@
+
+km=int(input("Enter the km:"))
+miles=0.621*km
+print("km to miles:",miles)

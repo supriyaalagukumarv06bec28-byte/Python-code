@@ -1,0 +1,10 @@
+#program to swap first letter of two strings
+
+def swap(word1,word2):
+   new_word1=word2[:1]+word1[1:]
+   new_word2=word1[:1]+word2[1:]
+   return new_word1+" "+new_word2
+str1=input("Enter first string:")
+str2=input("Enter second string:")
+result=swap(str1,str2)
+print("result is:",result)

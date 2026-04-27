@@ -1,0 +1,9 @@
+import math
+a=int(input("Enter a value:"))
+b=int(input("Enter b value:"))
+c=int(input("Enter c value:"))
+x=math.sqrt((b*b)-(4*a*c))
+r1=((-b)+x)/2*a
+r2=((-b)-x)/2*a
+print("Root1:",r1)
+print("Root2:",r2)

@@ -1,0 +1,11 @@
+#to find fibonacci series
+n=int(input("Enter a number:"))
+f=0
+s=1
+next=0
+print("Fibonacci serirs:")
+for i in range(0,n):
+   print(f)
+   next=f+s
+   f=s
+   s=next

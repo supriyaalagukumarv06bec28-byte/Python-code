@@ -1,0 +1,6 @@
+def exponential(a,b):
+   return a**b
+c=int(input("enter x value:"))
+d=int(input("Enter n value:"))
+f=exponential(c,d)
+print("The exponential value is:",f)
